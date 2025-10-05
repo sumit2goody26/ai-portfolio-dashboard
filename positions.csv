@@ -1,0 +1,4 @@
+ticker,buy_price,buy_limit,stop,expected_return_6m,qty,note
+VRT,160.2,161.0,133.0,0.163,5.616,AI datacenter power/thermal
+CRWD,489.88,492.33,408.63,0.127,1.428,Cybersecurity leader
+ANET,145.5,147.0,120.75,0.1,2.751,AI networking demand

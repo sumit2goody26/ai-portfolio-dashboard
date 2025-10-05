@@ -1,0 +1,3 @@
+ticker,status,trigger_type,trigger_rule,buy_limit_rule,initial_stop_rule,add_on_rule,notes
+APP,CONDITIONAL,Flag breakout,2–5 day tight flag (≤4% range) then close > flag high with ≥1.3× 50‑day volume and above anchored‑VWAP from prior high/gap.,Breakout price + 0.5% intraday limit.,Flag low − 0.8× ATR(14) OR 15% (tighter).,Add 1/3 after 2 closes above breakout; trail by tighter of 50‑DMA or 2×ATR.,Leader; currently extended; conditional only.
+APP,CONDITIONAL,20‑DMA reversal,Close touches within ±1% of 20‑DMA then next day closes higher with ≥1.2× 50‑day volume; AVWAP overhead >2%.,Prior close + 0.5% intraday limit.,Reversal‑bar low − 1× ATR(14) OR 15% (tighter).,Add 1/3 on higher‑high + retest/hold.,Alternative if no flag forms.
